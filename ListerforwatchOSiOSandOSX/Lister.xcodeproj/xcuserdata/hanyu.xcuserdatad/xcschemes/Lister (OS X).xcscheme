@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "16CBDAA618F6EE3A00233D3C"
+               BlueprintIdentifier = "3E497FC518FAFA2400B32837"
                BuildableName = "Lister.app"
-               BlueprintName = "Lister"
+               BlueprintName = "Lister (OS X)"
                ReferencedContainer = "container:Lister.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,43 +28,13 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1611C5E71A925C1D00472891"
-               BuildableName = "Lister Tests.xctest"
-               BlueprintName = "Lister Tests"
-               ReferencedContainer = "container:Lister.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3E251756197F7A0400B8AF96"
-               BuildableName = "ListerKit Tests.xctest"
-               BlueprintName = "ListerKit Tests"
-               ReferencedContainer = "container:Lister.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7EE21E6B1CAF72B20029C8B8"
-               BuildableName = "ListerUITests.xctest"
-               BlueprintName = "ListerUITests"
-               ReferencedContainer = "container:Lister.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "16CBDAA618F6EE3A00233D3C"
+            BlueprintIdentifier = "3E497FC518FAFA2400B32837"
             BuildableName = "Lister.app"
-            BlueprintName = "Lister"
+            BlueprintName = "Lister (OS X)"
             ReferencedContainer = "container:Lister.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -85,9 +55,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "16CBDAA618F6EE3A00233D3C"
+            BlueprintIdentifier = "3E497FC518FAFA2400B32837"
             BuildableName = "Lister.app"
-            BlueprintName = "Lister"
+            BlueprintName = "Lister (OS X)"
             ReferencedContainer = "container:Lister.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -104,9 +74,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "16CBDAA618F6EE3A00233D3C"
+            BlueprintIdentifier = "3E497FC518FAFA2400B32837"
             BuildableName = "Lister.app"
-            BlueprintName = "Lister"
+            BlueprintName = "Lister (OS X)"
             ReferencedContainer = "container:Lister.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

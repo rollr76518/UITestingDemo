@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "16F60BFC1A854A650028B2D8"
-               BuildableName = "Lister WatchKit App.app"
-               BlueprintName = "Lister WatchKit App"
+               BlueprintIdentifier = "16CD55E01B127D2400DB4F4F"
+               BuildableName = "Lister Watch App.app"
+               BlueprintName = "Lister Watch App"
                ReferencedContainer = "container:Lister.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -70,13 +70,23 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "7EE21E6B1CAF72B20029C8B8"
+               BuildableName = "ListerUITests.xctest"
+               BlueprintName = "ListerUITests"
+               ReferencedContainer = "container:Lister.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "16F60BFC1A854A650028B2D8"
-            BuildableName = "Lister WatchKit App.app"
-            BlueprintName = "Lister WatchKit App"
+            BlueprintIdentifier = "16CD55E01B127D2400DB4F4F"
+            BuildableName = "Lister Watch App.app"
+            BlueprintName = "Lister Watch App"
             ReferencedContainer = "container:Lister.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -100,18 +110,18 @@
          RemotePath = "/Lister">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "16F60BFC1A854A650028B2D8"
-            BuildableName = "Lister WatchKit App.app"
-            BlueprintName = "Lister WatchKit App"
+            BlueprintIdentifier = "16CD55E01B127D2400DB4F4F"
+            BuildableName = "Lister Watch App.app"
+            BlueprintName = "Lister Watch App"
             ReferencedContainer = "container:Lister.xcodeproj">
          </BuildableReference>
       </RemoteRunnable>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "16F60BFC1A854A650028B2D8"
-            BuildableName = "Lister WatchKit App.app"
-            BlueprintName = "Lister WatchKit App"
+            BlueprintIdentifier = "16CD55E01B127D2400DB4F4F"
+            BuildableName = "Lister Watch App.app"
+            BlueprintName = "Lister Watch App"
             ReferencedContainer = "container:Lister.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -131,18 +141,18 @@
          RemotePath = "/Lister">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "16F60BFC1A854A650028B2D8"
-            BuildableName = "Lister WatchKit App.app"
-            BlueprintName = "Lister WatchKit App"
+            BlueprintIdentifier = "16CD55E01B127D2400DB4F4F"
+            BuildableName = "Lister Watch App.app"
+            BlueprintName = "Lister Watch App"
             ReferencedContainer = "container:Lister.xcodeproj">
          </BuildableReference>
       </RemoteRunnable>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "16F60BFC1A854A650028B2D8"
-            BuildableName = "Lister WatchKit App.app"
-            BlueprintName = "Lister WatchKit App"
+            BlueprintIdentifier = "16CD55E01B127D2400DB4F4F"
+            BuildableName = "Lister Watch App.app"
+            BlueprintName = "Lister Watch App"
             ReferencedContainer = "container:Lister.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

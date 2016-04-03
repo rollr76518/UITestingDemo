@@ -42,9 +42,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "16CBDAA618F6EE3A00233D3C"
-               BuildableName = "Lister.app"
-               BlueprintName = "Lister"
+               BlueprintIdentifier = "16CD55EC1B127D2400DB4F4F"
+               BuildableName = "Lister Watch Extension.appex"
+               BlueprintName = "Lister Watch Extension"
                ReferencedContainer = "container:Lister.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -56,9 +56,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "16CD55EC1B127D2400DB4F4F"
-               BuildableName = "Lister Watch Extension.appex"
-               BlueprintName = "Lister Watch Extension"
+               BlueprintIdentifier = "16CBDAA618F6EE3A00233D3C"
+               BuildableName = "Lister.app"
+               BlueprintName = "Lister"
                ReferencedContainer = "container:Lister.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
