@@ -31,6 +31,40 @@ class ListerUITests: XCTestCase {
     func testExample() {
         // Use recording to get started writing UI tests.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
+        
+
+
     }
     
+    func testDelete() {
+        
+        let app = XCUIApplication()
+        let tablesQuery = app.tables
+        tablesQuery.staticTexts["Groceries"].tap()
+        
+        let count = tablesQuery.cells.count
+        
+        let groceriesNavigationBarsQuery = app.navigationBars.matchingIdentifier("Groceries")
+        groceriesNavigationBarsQuery.buttons["Edit"].tap()
+        tablesQuery.childrenMatchingType(.Cell).elementBoundByIndex(1).buttons["Delete "].tap()
+        tablesQuery.buttons["Delete"].tap()
+        groceriesNavigationBarsQuery.buttons["Done"].tap()
+        
+        XCTAssertEqual(tablesQuery.cells.count, count - 1)
+    }
+    
+    func testAdd() {
+        let app = XCUIApplication()
+        let tablesQuery = app.tables
+        tablesQuery.staticTexts["Groceries"].tap()
+        
+        let count = tablesQuery.cells.count
+        
+        let tableTextField = tablesQuery.textFields["Add Item"]
+        tableTextField.tap()
+        tableTextField.typeText("cookies")
+        app.buttons["Done"].tap()
+        
+        XCTAssertEqual(tablesQuery.cells.count, count + 1)
+    }
 }
