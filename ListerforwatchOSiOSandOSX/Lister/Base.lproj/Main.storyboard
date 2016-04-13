@@ -80,6 +80,10 @@
                                         <view tag="5" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zzS-ZF-ycs" customClass="ColorTappableView" customModule="Lister" customModuleProvider="target">
                                             <rect key="frame" x="560" y="0.0" width="40" height="43"/>
                                             <color key="backgroundColor" red="0.95294117649999999" green="0.41960784309999999" blue="0.42745098040000001" alpha="1" colorSpace="deviceRGB"/>
+                                            <accessibility key="accessibilityConfiguration" label="red">
+                                                <accessibilityTraits key="traits" button="YES"/>
+                                                <bool key="isElement" value="YES"/>
+                                            </accessibility>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="40" id="vzN-vk-sum"/>
                                             </constraints>
@@ -87,6 +91,10 @@
                                         <view tag="4" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bXc-nW-vsQ" customClass="ColorTappableView" customModule="Lister" customModuleProvider="target">
                                             <rect key="frame" x="520" y="0.0" width="40" height="43"/>
                                             <color key="backgroundColor" red="0.95686274510000002" green="0.62352941179999999" blue="0.25490196079999999" alpha="1" colorSpace="deviceRGB"/>
+                                            <accessibility key="accessibilityConfiguration" label="orange">
+                                                <accessibilityTraits key="traits" button="YES"/>
+                                                <bool key="isElement" value="YES"/>
+                                            </accessibility>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="40" id="fbc-Fx-PUo"/>
                                             </constraints>
@@ -94,6 +102,10 @@
                                         <view tag="3" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cj6-XA-fST" customClass="ColorTappableView" customModule="Lister" customModuleProvider="target">
                                             <rect key="frame" x="480" y="0.0" width="40" height="43"/>
                                             <color key="backgroundColor" red="0.94901960780000005" green="0.87450980389999999" blue="0.2470588235" alpha="1" colorSpace="deviceRGB"/>
+                                            <accessibility key="accessibilityConfiguration" label="yellow">
+                                                <accessibilityTraits key="traits" button="YES"/>
+                                                <bool key="isElement" value="YES"/>
+                                            </accessibility>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="40" id="4Ug-X0-WlA"/>
                                             </constraints>
@@ -101,6 +113,10 @@
                                         <view tag="2" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Tkh-8r-aJm" customClass="ColorTappableView" customModule="Lister" customModuleProvider="target">
                                             <rect key="frame" x="440" y="0.0" width="40" height="43"/>
                                             <color key="backgroundColor" red="0.70588235290000001" green="0.83529411760000005" blue="0.35294117650000001" alpha="1" colorSpace="deviceRGB"/>
+                                            <accessibility key="accessibilityConfiguration" label="green">
+                                                <accessibilityTraits key="traits" button="YES"/>
+                                                <bool key="isElement" value="YES"/>
+                                            </accessibility>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="40" id="GZ0-qQ-s2v"/>
                                             </constraints>
@@ -108,6 +124,10 @@
                                         <view tag="1" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1Bd-Yk-Hnb" customClass="ColorTappableView" customModule="Lister" customModuleProvider="target">
                                             <rect key="frame" x="401" y="0.0" width="40" height="43"/>
                                             <color key="backgroundColor" red="0.43921568630000002" green="0.70196078429999997" blue="0.87450980389999999" alpha="1" colorSpace="deviceRGB"/>
+                                            <accessibility key="accessibilityConfiguration" label="blue">
+                                                <accessibilityTraits key="traits" button="YES"/>
+                                                <bool key="isElement" value="YES"/>
+                                            </accessibility>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="40" id="mKx-Ki-azh"/>
                                             </constraints>
@@ -115,6 +135,10 @@
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="d73-Af-1LI" customClass="ColorTappableView" customModule="Lister" customModuleProvider="target">
                                             <rect key="frame" x="361" y="0.0" width="40" height="43"/>
                                             <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                            <accessibility key="accessibilityConfiguration" label="black">
+                                                <accessibilityTraits key="traits" button="YES"/>
+                                                <bool key="isElement" value="YES"/>
+                                            </accessibility>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="40" id="8kx-Yq-Nea"/>
                                             </constraints>
