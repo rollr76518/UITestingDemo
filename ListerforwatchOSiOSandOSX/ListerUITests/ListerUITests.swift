@@ -32,21 +32,6 @@ class ListerUITests: XCTestCase {
         // Use recording to get started writing UI tests.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
         
-        
-        let app = XCUIApplication()
-        let tablesQuery = app.tables
-        tablesQuery.staticTexts["Groceries"].tap()
-        
-        
-        tablesQuery.cells.buttons["Cookie"].tap()
-//        tablesQuery.childrenMatchingType(.Cell).elementBoundByIndex(1).childrenMatchingType(.TextField).element.tap()
-        app.buttons["Done"].tap()
-        app.typeText("\n")
-        
-        
-        
-
-        
     }
     
     func testDelete() {
