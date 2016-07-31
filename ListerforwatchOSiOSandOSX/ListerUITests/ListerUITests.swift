@@ -47,23 +47,25 @@ class ListerUITests: XCTestCase {
         firstCell.tap()
         
         //第二頁按編輯之後刪除
-        let orignalCount = tablesQuery.cells.count
-        
-        let groceriesNavigationBarsQuery = app.navigationBars.matchingIdentifier(FIRST_CELL_TITLE)
+        let groceriesNavigationBarsQuery = app.navigationBars.matchingIdentifier("Groceries")
         let buttonEdit = groceriesNavigationBarsQuery.buttons["Edit"]
         buttonEdit.tap()
         
-        let firstItem = tablesQuery.childrenMatchingType(.Cell).elementBoundByIndex(1)
-        firstItem.buttons["Delete "].tap()
-        firstItem.buttons["Delete"].tap()
-         
+        while tablesQuery.cells.count > 0 {
+            let orignalCount = tablesQuery.cells.count
+            
+            let firstItem = tablesQuery.childrenMatchingType(.Cell).elementBoundByIndex(1)
+            firstItem.buttons["Delete "].tap()
+            firstItem.buttons["Delete"].tap()
+            
+            let newCount = tablesQuery.cells.count
+            
+            //檢查刪除前跟刪除後是否少1
+            XCTAssertEqual(newCount, orignalCount - 1)
+        }
+    
         let buttonDone = groceriesNavigationBarsQuery.buttons["Done"]
         buttonDone.tap()
-
-        let newCount = tablesQuery.cells.count
-        
-        //檢查刪除前跟刪除後是否少1
-        XCTAssertEqual(newCount, orignalCount - 1)
     }
     
     func testAdd() {
@@ -72,7 +74,7 @@ class ListerUITests: XCTestCase {
         
         //從第一頁進到第二頁
         let tablesQuery = app.tables
-        let firstCell = tablesQuery.staticTexts[FIRST_CELL_TITLE]
+        let firstCell = tablesQuery.staticTexts["Groceries"]
         firstCell.tap()
         
         //第二頁按新增之後增加
@@ -95,18 +97,17 @@ class ListerUITests: XCTestCase {
         
         //從第一頁進到第二頁
         let tablesQuery = app.tables
-        let firstCell = tablesQuery.staticTexts[FIRST_CELL_TITLE]
+        let firstCell = tablesQuery.staticTexts["Groceries"]
         firstCell.tap()
         
         //第二頁按編輯之後點擊各個 button(ID)
-        let groceriesNavigationBarsQuery = app.navigationBars.matchingIdentifier(FIRST_CELL_TITLE)
+        let groceriesNavigationBarsQuery = app.navigationBars.matchingIdentifier("Groceries")
         groceriesNavigationBarsQuery.buttons["Edit"].tap()
         let redButton = tablesQuery.buttons["red"]
         redButton.tap()
+        
         //可以測試 identifier 是否正確，但無法測試顏色
         XCTAssertEqual(redButton.identifier, "red")
-        
-//        XCUIApplication().tables.childrenMatchingType(.Cell).elementBoundByIndex(1).buttons["Reorder"].tap()
         
         tablesQuery.buttons["orange"].tap()
         tablesQuery.buttons["yellow"].tap()
@@ -115,24 +116,9 @@ class ListerUITests: XCTestCase {
         tablesQuery.buttons["black"].tap()
         groceriesNavigationBarsQuery.buttons["Done"].tap()
     }
-    
-    func testForButton() {
-        
-        let app = XCUIApplication()
-        let tablesQuery = app.tables
-        tablesQuery.staticTexts["Groceries"].tap()
-        
-        let groceriesNavigationBarsQuery = app.navigationBars.matchingIdentifier("Groceries")
-        groceriesNavigationBarsQuery.buttons["Edit"].tap()
-        
-        
-//        let reorderButton = XCUIApplication().tables.childrenMatchingType(.Cell).elementBoundByIndex(1).buttons["Reorder"]
-//        reorderButton.swipeUp()
 
-        tablesQuery.buttons["Oranges"].tap()
-//        groceriesNavigationBarsQuery.buttons["Done"].tap()
+    func testDemo() {
         
-        
-        
+
     }
 }
