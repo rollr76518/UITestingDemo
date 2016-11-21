@@ -1,4 +1,4 @@
-# UI Testing for iOS Demo
+# UI Testing Demo for iOS 
 
 Download sample code from Apple 
 https://developer.apple.com/library/content/samplecode/Lister/Introduction/Intro.html
